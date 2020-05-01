@@ -1,0 +1,16 @@
+{
+  "name": "circuitos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss src/index.css -w"
+  },
+  "author": "Ezequiel Alvarez Rubio",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.0",
+    "sass": "^1.26.5"
+  }
+}
