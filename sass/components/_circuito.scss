@@ -135,7 +135,12 @@
 
     &--3 {
       justify-self: right;
-      grid-row: 5 / 8;
+      grid-row: 5 / 7;
+    }
+
+    &--4 {
+      justify-self: right;
+      grid-row: 7 / -1;
     }
   }
 

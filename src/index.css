@@ -112,7 +112,10 @@ body {
       grid-row: 3 / 5; }
     .circuito__imagen--3 {
       justify-self: right;
-      grid-row: 5 / 8; }
+      grid-row: 5 / 7; }
+    .circuito__imagen--4 {
+      justify-self: right;
+      grid-row: 7 / -1; }
   .circuito__back:hover {
     transform: scale(1.1);
     text-shadow: .1rem .1rem 1rem black; }
