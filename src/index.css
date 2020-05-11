@@ -61,6 +61,22 @@ body {
     padding-right: 3rem;
     grid-row: 3 / 4;
     grid-column: 1 / 3; }
+    .circuito__descripcion-traslados {
+      font-weight: 100;
+      line-height: 2.3rem;
+      margin: 4rem 1rem 0 0;
+      padding-right: 3rem;
+      grid-row: 2 / -1;
+      grid-column: 1 / 3; }
+    .circuito__descripcion-lista {
+      font-weight: 100;
+      line-height: 2.3rem;
+      margin: 4rem 1rem 0 0;
+      padding-right: 3rem;
+      grid-row: 2 / -1;
+      grid-column: 1 / 3; }
+    .circuito__descripcion-item {
+      margin-top: 1.7rem; }
   .circuito__opcionales {
     margin-top: 5rem;
     grid-row: 4 / 5;
@@ -112,9 +128,15 @@ body {
       justify-self: right; }
     .circuito__imagen--4 {
       justify-self: right; }
+    .circuito__imagen--recepcion {
+      grid-column: 1 / 2;
+      justify-self: left; }
   .circuito__back:hover {
     transform: scale(1.1);
     text-shadow: .1rem .1rem 1rem black; }
+
+.videos {
+  margin-top: 4rem; }
 
 .circuitos__container {
   display: grid;

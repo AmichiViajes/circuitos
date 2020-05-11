@@ -14,7 +14,8 @@
       <div class="header__form">
         <select name="" id="" class="header__form--select" onchange="window.open(this.value, '_self');">
           <option value="./index.html" class="header__form--option">Circuitos</option>
-          <option value="./src/destinos.html" class="header__form--option">Destinos</option>
+          <option value="./src/empresa.html" class="header__form--option">Empresa</option>
+          <option value="./src/traslados.html" class="header__form--option">Traslados</option>
         </select>
       </div>      
       <img src="./src/img/Logo_Amichi.png" alt="" class="header__logo">
@@ -68,18 +69,19 @@
         </div>
         
         <div class="circuitos__destino">
+          <a href="./src/noa.html" class="circuitos__link">
+            <img src="./src/img/hornocal.jpg" alt="" class="circuitos__imagen">
+            <h3 class="circuitos__nombre circuitos__nombre--noa">VUELTA AL NORTE</h3>
+          </a>
+        </div>
+
+        <div class="circuitos__destino">
           <a href="./src/sla-pma.html" class="circuitos__link">
             <img src="./src/img/salinas.jpg" alt="" class="circuitos__imagen">
             <h3 class="circuitos__nombre circuitos__nombre--purmamarca">SALTA Y PURMAMARCA</h3>
           </a>
         </div>
 
-        <div class="circuitos__destino">
-          <a href="./src/noa.html" class="circuitos__link">
-            <img src="./src/img/hornocal.jpg" alt="" class="circuitos__imagen">
-            <h3 class="circuitos__nombre circuitos__nombre--noa">VUELTA AL NORTE</h3>
-          </a>
-        </div>
 
         <div class="circuitos__destino circuitos__destino--uaq">
           <a href="./src/uaq.html" class="circuitos__link">
@@ -96,6 +98,11 @@
         </div>
       </div>
     </section>
+
+    <div class="videos">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/F2Ujt_cY7qs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
   </div>
   
   <script src="./src/index.js"></script>

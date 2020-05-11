@@ -71,6 +71,28 @@
     padding-right: 3rem;
     grid-row: 3 / 4;
     grid-column: 1 / 3;
+
+    &-traslados {
+      font-weight: 100;
+      line-height: 2.3rem;
+      margin: 4rem 1rem 0 0;
+      padding-right: 3rem;
+      grid-row: 2 / -1;
+      grid-column: 1 / 3;
+    }
+
+    &-lista {
+      font-weight: 100;
+      line-height: 2.3rem;
+      margin: 4rem 1rem 0 0;
+      padding-right: 3rem;
+      grid-row: 2 / -1;
+      grid-column: 1 / 3;
+    }
+
+    &-item {
+      margin-top: 1.7rem;
+    }
   }
 
   &__opcionales {
@@ -140,6 +162,12 @@
     &--4 {
       justify-self: right;
     }
+
+    &--recepcion {
+      grid-column: 1 / 2;
+      justify-self: left;
+      }
+    
   }
 
   &__back:hover {
