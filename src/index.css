@@ -128,15 +128,14 @@ body {
       justify-self: right; }
     .circuito__imagen--4 {
       justify-self: right; }
-    .circuito__imagen--recepcion {
-      grid-column: 1 / 2;
-      justify-self: left; }
   .circuito__back:hover {
     transform: scale(1.1);
     text-shadow: .1rem .1rem 1rem black; }
 
 .videos {
-  margin-top: 4rem; }
+  text-align: center;
+  margin-top: 6rem;
+  border-radius: 5px; }
 
 .circuitos__container {
   display: grid;
