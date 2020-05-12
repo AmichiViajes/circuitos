@@ -131,6 +131,9 @@ body {
   .circuito__back:hover {
     transform: scale(1.1);
     text-shadow: .1rem .1rem 1rem black; }
+  .circuito__video {
+    grid-row: 8 / -1;
+    grid-column: 1 / 2; }
 
 .videos {
   text-align: center;

@@ -168,4 +168,9 @@
     transform: scale(1.1);
     text-shadow: .1rem .1rem 1rem black;
   }
+
+  &__video {
+    grid-row: 8 / -1;
+    grid-column: 1 / 2;
+  }
 }
