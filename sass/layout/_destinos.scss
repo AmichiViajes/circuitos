@@ -1,0 +1,102 @@
+.circuitos {
+
+  &__container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    column-gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  &__destino {
+    width: 25rem;
+    height: 15rem;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: .1rem 0.3rem 1rem black;
+    position: relative;
+    transition: all .1s;
+
+    &--uaq {
+      grid-row: 3 / 4;
+      grid-column: 3 / 4;
+    }
+  }
+
+  &__link {
+    text-align: center;
+  }
+
+  &__imagen {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-position: bottom;
+  }
+
+  &__nombre {
+    display: inline-block;
+    font-size: 1.8rem;
+    color: white;
+    text-shadow: .1rem .1rem .3rem black;
+    position: absolute;
+    opacity: 1;
+    transition: all .2s;
+
+    &--igr {
+      top: 6rem;
+      left: 8.5rem;
+    }
+
+    &--fte {
+      top: 5rem;
+      left: 8.1rem;
+    }
+
+    &--sla {
+      top: 5rem;
+      left: 9.5rem;
+    }
+
+    &--brc {
+      top: 6rem;
+      left: 7.3rem;
+    }
+
+    &--ush {
+      top: 6rem;
+      left: 8.2rem;
+    }
+    
+    &--mdz {
+      top: 6rem;
+      left: 7.5rem;
+    }
+    
+    &--sma {
+      top: 6rem;
+      left: 1rem;
+    }
+
+  }
+
+  &__destino:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    box-shadow: .3rem 0.6rem 1.2rem black;
+    text-shadow: .3rem 0.5rem 1.1rem black;
+    z-index: 10;
+  }
+
+  &__destino:active {
+    cursor: pointer;
+    transform: scale(1.15);
+    box-shadow: .3rem 0.6rem 1.2rem black;
+  }
+
+  &__destino:hover > a > &__imagen {
+    filter: blur(1px) brightness(105%) saturate(110%);
+  }
+}
